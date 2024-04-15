@@ -1,0 +1,87 @@
+body{
+   background-color: rgb(0, 149, 255);
+}
+
+header{
+    background-color: bisque;
+}
+
+.navbar-brand img{
+    width: 75px;
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit:  cover; /* ajustar a imagem de modo que ela cubra o espaço dispomnivel*/
+}   
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+h6{
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+h5{
+    font-size:50px ;
+}
+
+.somos img{
+    align-self: center;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-image: url(Imagem/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.contato article img{
+    width: 15%;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+}
+
+.estabelecimento p{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.estabelecimento div{
+    width: 100%;
+    margin: auto;
+    padding: 10px;   
+}
+
+.estabelecimento iframe{
+    margin-left: 625px;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+
+
+
+
